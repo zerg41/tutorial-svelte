@@ -1,6 +1,9 @@
-<script>
-  import src from './assets/svelte.svg';
-  let name = 'Svelte';
-</script>
+<p>This is paragraph</p>
 
-<img {src} alt="{name} logo" />
+<style>
+  p {
+    color: goldenrod;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 2em;
+  }
+</style>
