@@ -1,4 +1,9 @@
+<script>
+  import Nested from './lib/Nested.svelte';
+</script>
+
 <p>This is paragraph</p>
+<Nested />
 
 <style>
   p {
