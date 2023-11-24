@@ -1,5 +1,5 @@
 <script>
-  import AwaitBlock from './lib/AwaitBlock.svelte';
+  import EventsDomForwarding from './lib/EventsDomForwarding.svelte';
 </script>
 
-<AwaitBlock />
+<EventsDomForwarding />
