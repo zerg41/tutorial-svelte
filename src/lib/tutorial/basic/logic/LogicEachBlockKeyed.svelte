@@ -1,5 +1,5 @@
 <script>
-  import EachBlockKeyedThing from './EachBlockKeyedThing.svelte';
+  import LogicEachBlockKeyedThing from './LogicEachBlockKeyedThing.svelte';
 
   let things = [
     { id: 1, name: 'apple' },
@@ -17,5 +17,5 @@
 <button on:click={handleClick}> Remove first thing </button>
 
 {#each things as thing (thing.id)}
-  <EachBlockKeyedThing name={thing.name} />
+  <LogicEachBlockKeyedThing name={thing.name} />
 {/each}
