@@ -1,5 +1,5 @@
 <script>
-  import BindingsTextarea from './lib/tutorial/basic/bindings/BindingsTextarea.svelte';
+  import OnTick from './lib/tutorial/basic/lifecycle/OnTick.svelte';
 </script>
 
-<BindingsTextarea />
+<OnTick />
