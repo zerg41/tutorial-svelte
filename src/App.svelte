@@ -1,5 +1,5 @@
 <script>
-  import EventsDomForwarding from './lib/EventsDomForwarding.svelte';
+  import BindingsTextarea from './lib/tutorial/basic/bindings/BindingsTextarea.svelte';
 </script>
 
-<EventsDomForwarding />
+<BindingsTextarea />
