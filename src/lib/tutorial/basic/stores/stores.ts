@@ -16,3 +16,16 @@ export const time = readable(startDate, (set) => {
 });
 
 export const elapsed = derived(time, ($time) => Math.round(($time.valueOf() - startDate.valueOf()) / ONE_SECOND));
+
+function createCustomCount() {
+  const { set, subscribe, update } = writable(0);
+
+  return {
+    subscribe,
+    increment: () => update((n) => n + 1),
+    decrement: () => update((n) => n - 1),
+    reset: () => set(0),
+  };
+}
+
+export const customCount = createCustomCount();
