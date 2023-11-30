@@ -29,3 +29,7 @@ function createCustomCount() {
 }
 
 export const customCount = createCustomCount();
+
+export const name = writable('world');
+
+export const greeting = derived(name, ($name) => `Hello ${$name}!`);

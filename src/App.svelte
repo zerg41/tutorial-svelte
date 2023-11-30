@@ -1,4 +1,5 @@
 <script>
+  import StoreBindings from './lib/tutorial/basic/stores/StoreBindings.svelte';
   import StoreCustom from './lib/tutorial/basic/stores/StoreCustom.svelte';
   import StoreDerived from './lib/tutorial/basic/stores/StoreDerived.svelte';
   import StoreReadable from './lib/tutorial/basic/stores/StoreReadable.svelte';
@@ -6,4 +7,4 @@
   import StoreWritable from './lib/tutorial/basic/stores/StoreWritable.svelte';
 </script>
 
-<StoreCustom />
+<StoreBindings />
