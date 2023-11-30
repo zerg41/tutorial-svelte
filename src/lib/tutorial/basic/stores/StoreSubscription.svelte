@@ -3,18 +3,9 @@
   import Incrementer from './StoreIncrementer.svelte';
   import Decrementer from './StoreDecrementer.svelte';
   import Resetter from './StoreResetter.svelte';
-  import { onDestroy } from 'svelte';
-
-  let countValue: number;
-
-  const unsubscribe = count.subscribe((value) => {
-    countValue = value;
-  });
-
-  onDestroy(unsubscribe);
 </script>
 
-<h1>The count is {countValue}</h1>
+<h1>The count is {$count}</h1>
 
 <Incrementer />
 <Decrementer />
