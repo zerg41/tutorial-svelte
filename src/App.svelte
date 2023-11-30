@@ -1,5 +1,5 @@
 <script>
-  import OnTick from './lib/tutorial/basic/lifecycle/OnTick.svelte';
+  import StoreWritable from './lib/tutorial/basic/stores/StoreWritable.svelte';
 </script>
 
-<OnTick />
+<StoreWritable />
